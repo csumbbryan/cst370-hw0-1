@@ -23,7 +23,7 @@ class Main
     public static void main(String[] args) {
 
         // Develop your program here.
-        // The following is just a sample statement and and you need to replace it with your code
+        // The following is just a sample statement and you need to replace it with your code
 
         int integer1;
         int integer2;
