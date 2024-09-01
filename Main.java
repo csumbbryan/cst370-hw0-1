@@ -9,9 +9,10 @@
 
 // Finish the head comment with Abstract, Name, and Date.
 /*
- * Abstract: Describe the main ideas of the program.
- * Name: Write your name
- * Date: MM/DD/YYYY
+ * Abstract: Program accepts two integers as input, and outputs their Sum and Difference, with difference being in
+ * absolute value.
+ * Name: Bryan Zanoli
+ * Date: 08/31/2024
  */
 
  import java.util.Scanner;
