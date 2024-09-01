@@ -13,6 +13,9 @@
  * Name: Write your name
  * Date: MM/DD/YYYY
  */
+
+ import java.util.Scanner;
+ import java.lang.Math;
  
 class Main 
 {
@@ -20,8 +23,25 @@ class Main
 
         // Develop your program here.
         // The following is just a sample statement and and you need to replace it with your code
+
+        int integer1;
+        int integer2;
+        int sum;
+        int difference;
+
+        Scanner scanner = new Scanner(System.in);
+        String s1 = scanner.nextLine();
         
-        System.out.println("Hello world!");
+        String[] values = s1.split(" "); 
+        integer1 = Integer.valueOf(values[0]);
+        integer2 = Integer.valueOf(values[1]);
+
+        sum = integer1 + integer2;
+        difference = Math.abs(integer1 - integer2);
+
+        System.out.println("SUM:" + sum);
+        System.out.println("DIFF:" + difference);
+        scanner.close();
     }
 }
 
